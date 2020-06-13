@@ -1,5 +1,29 @@
 body {
   background-color: #000000;
+  text-align: center;
+}
+
+.btn {
+	background:linear-gradient(to bottom, lightcyan 5%, cyan 100%);
+	background-color:cyan;
+	border-radius:5px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:25px;
+	font-weight:bold;
+	padding:15px 35px;
+	text-decoration:none;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, lightblue 5%, aquamarine 100%);
+	background-color: #ffffff;
+}
+.btn:active {
+	position:relative;
+	top:1px;
 }
 
 .hide {
