@@ -1,3 +1,15 @@
 body {
   background-color: #000000;
 }
+
+.hide {
+  visibility: hidden;
+}
+
+.player1, .player2 {
+  color: aqua;
+}
+
+.title {
+  color: #ffffff;
+}
