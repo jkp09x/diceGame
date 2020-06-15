@@ -32,12 +32,30 @@ h1 {
 	top:1px;
 }
 
+.btn_div {
+  margin-top: 300px;
+}
+
 .hide {
   visibility: hidden;
 }
 
+.diceImages {
+  position: relative;
+  margin: 0 auto 0 auto;
+}
+
 .player1, .player2 {
   color: cyan;
+  display: inline-block;
+  position: absolute;
+}
+
+.player1 {
+  background-color: green;
+}
+.player2 {
+  background-color: maroon;
 }
 
 .player_title {
